@@ -1,0 +1,14 @@
+- `/go_backend_test_homework` - тестирование
+
+- `/go1fl-4-sprint-final` - фитнес-трекер (1 p)
+- `/go1fl-sprint5-final` -  фитнес-трекер (2 p)
+- `/go1fl-sprint6-final-tpl`
+- `/go1fl-sprint7-final-tpl`
+- `/go1fl-sprint9-final-tpl`
+- `/final-project-10th-sprint`
+- `/go1fl-sprint12-final`
+- `/hello-golang`
+- `/study_github_ci`
+- `/42-docker-final-main`
+- `/go-db-sql-final`
+- `/go-first-fl-codestyle`
