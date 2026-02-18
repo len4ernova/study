@@ -12,3 +12,5 @@
 - `/42-docker-final-main`
 - `/go-db-sql-final`
 - `/go-first-fl-codestyle`
+
+- `/ldap` - пример с аутентификацией ldap
