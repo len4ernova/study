@@ -1,3 +1,5 @@
+- `linked-list` - связанные списки
+
 - `/go_backend_test_homework` - тестирование
 
 - `/go1fl-4-sprint-final` - фитнес-трекер (1 p)
