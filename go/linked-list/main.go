@@ -17,7 +17,28 @@ func main() {
 
 		list.InsertAtBack(i)
 	}
+	fmt.Println("Исходный связанный список")
+	list.print()
+	fmt.Println("Удалим 1ый и последний эл-т:")
+	list.DeleteFirstNode()
+	list.DeleteLast()
+	list.print()
+	list.InsertAfterValue(5, 55)
+	list.InsertBeforeValue(55, 555)
+	list.print()
+	fmt.Println("Удалить узел после 3")
+	list.deleteAfterValue(3)
+	list.print()
+	fmt.Println("Удалить узел перед 7")
+	list.deleteBeforeValue(7)
+	list.print()
+	fmt.Println("Найти узел 5")
+	cnt := 5
+	n := list.findNodeAt(cnt)
+	if n != nil {
+		fmt.Printf("Значение %d в узле %d\n", n.data, cnt)
+	}
 
-	fmt.Println(list.head.data, list.head.next.data)
+	fmt.Printf("Кол-во узлов: %d\n", list.countNodes())
 
 }

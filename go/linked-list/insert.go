@@ -12,7 +12,7 @@ func (list *LinkedList) InsertAtBack(data int) {
 
 	current := list.head
 	for current.next != nil {
-		current = list.head
+		current = current.next
 	}
 	current.next = newNode
 }
