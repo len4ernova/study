@@ -41,4 +41,11 @@ func main() {
 
 	fmt.Printf("Кол-во узлов: %d\n", list.countNodes())
 
+	var l1, l2 LinkedList
+	for i := 1; i < 3; i++ {
+		l1.InsertAtBack(i)
+		l2.InsertAtFront(i * 2)
+	}
+
+	addTwoNumbers2(l1.head, l2.head)
 }

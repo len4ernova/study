@@ -40,3 +40,12 @@ func (list *LinkedList) print() {
 	}
 	fmt.Println()
 }
+
+func printNodes(l *Node) {
+	var current *Node = l
+	for current != nil {
+		fmt.Printf("%d -> ", current.data)
+		current = current.next
+	}
+	fmt.Println()
+}
