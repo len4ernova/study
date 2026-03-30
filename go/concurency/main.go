@@ -15,5 +15,18 @@ func main() {
 
 	//gmpModel()
 	//asyncPreemtible()
-	runtime_exit1()
+
+	//runtime_exit1()
+
+	//mutex_for_order()
+
+	/*fb := NewFooBar(10)
+	go fb.Foo(func() { fmt.Println("Foo") })
+	fb.Bar(func() { fmt.Println("Bar") })
+	*/
+
+	//mutex_local()
+
+	sampleONCE()
+
 }
